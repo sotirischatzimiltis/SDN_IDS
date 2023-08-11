@@ -1,7 +1,15 @@
 ## Helpful Documentation
 
 ### Requirements
-
+- Sklearn (1.3.0)
+- Numpy (1.24.3)
+- Pandas (1.5.3)
+- Seaborn (0.12.2)
+- Matplotlib (3.7.1)
+- xgboost (1.7.3)
+- tabulate (0.8.10)
+- psutil (5.9.0)
+- imbens (0.11.0)
 
 ### Usage
 #### Data Pre-processing
