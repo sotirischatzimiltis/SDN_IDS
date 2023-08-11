@@ -11,7 +11,7 @@ def save_dataframe(x_train, y_train, x_test, y_test, features, name):
     Y_train = pd.DataFrame(y_train)
     train_frame = [X_train, Y_train]
     train_final = pd.concat(train_frame,axis=1)
-    train_final.to_csv(name +'train.csv',index = False)
+    train_final.to_csv(name +'_train.csv',index = False)
     print("Train dataset Saved")
 
     # Save test data set as well
@@ -20,7 +20,7 @@ def save_dataframe(x_train, y_train, x_test, y_test, features, name):
     Y_test = pd.DataFrame(y_test)
     test_frame = [X_test,Y_test]
     test_final = pd.concat(test_frame,axis=1)
-    test_final.to_csv(name+'test.csv',index = False)
+    test_final.to_csv(name+'_test.csv',index = False)
     print("Test dataset Saved")
 
 """# Read Files and Basic Info"""
