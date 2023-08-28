@@ -5,10 +5,11 @@
 
 ####  Software Defined Network Intrusion Detection System (SDN-IDS) Architecture:
 
-#### Performance Evaluation metrics 
+#### Performance Evaluation metrics:
+![plot](https://github.com/sotirischatzimiltis/SDN_IDS/blob/main/Figures/performance_metrics.PNG)
 
-#### About Machine Learning Models Used
+#### About Machine Learning Models Used:
 
-#### About Resampling Techniques
+#### About Resampling Techniques:
 
 ##### References
