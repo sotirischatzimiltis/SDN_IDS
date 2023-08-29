@@ -14,8 +14,15 @@ Network traffic datasets used for IDS are usually imbalanced. Imbalanced data us
 From our perspective to tackle this problem, resampling techniques such as SMOTE and Tomek’s link  were utilised in order to alleviate data imbalances between classes.
 
 #### Results
+ It can be observed that different combination result in better macro performance where different combination results in better weighted performance. XGBoost
+model trained with the reduced baseline dataset achieved an accuracy of 99.9% and an F1 score of 99.9 as well. On the other hand the DT model trained with the reduced feature resampled dataset had an accuracy of 87.77% and an F1 score of 87.20.
+
 ![plot](https://github.com/sotirischatzimiltis/SDN_IDS/blob/main/Figures/test_set_performance.PNG)
 ![plot](https://github.com/sotirischatzimiltis/SDN_IDS/blob/main/Figures/macro_test_performance.PNG)
+
+The confusion matrices reveal that the XGBoost model faces challenges when classifying the three web attacks and the Infiltration attack. On the other hand, the DT model
+exhibits a slight improvement in classifying these attacks but at the cost of a slight decrease in normal traffic classification performance.
+
 ![plot](https://github.com/sotirischatzimiltis/SDN_IDS/blob/main/Figures/xgb_test_reduced_baseline_cf.png)
 ![plot](https://github.com/sotirischatzimiltis/SDN_IDS/blob/main/Figures/dt_test_reduced_cf.png)
 #### Authors 
