@@ -17,3 +17,9 @@ Network traffic datasets used for IDS are usually imbalanced. Imbalanced data us
 From our perspective to tackle this problem, resampling techniques such as SMOTE and Tomek’s link  were utilised in order to alleviate data imbalances between classes.
 
 #### Results
+
+#### Authors 
+Sotiris Chatzimiltis, Mohammad Shojafar, Mahdi Boloursaz Mashhadi, and Rahim Tafazolli <br />
+5GIC \& 6GIC, Institute for Communication Systems (ICS), University of Surrey, Guildford, UK <br />
+sc02449@surrey.ac.uk, m.shojafar@surrey.ac.uk, m.boloursazmashhadi@surrey.ac.uk, r.tafazolli@surrey.ac.uk
+
