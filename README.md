@@ -1,12 +1,9 @@
 ### Intrusion and Vulnerability Detection in Software Defined Networks
-
+Problem stated by [ITU AI For Good Global Summit](https://challenge.aiforgood.itu.int/match/matchitem/81) and presented by [ITU & ULAK](https://www.youtube.com/watch?v=zgne_H0Ki7M)
 #### Abstract:
-
+Software Defined Networks (SDNs) have revolutionised the way modern networks are managed and orchestrated. This sophisticated infrastructure can provide numerous benefits but at the same time introduce several security challenges. A centralised controller holds the responsibility of managing the network traffic, thus making it an attractive target to attackers. Intrusion detection systems (IDS) play a crucial role in identifying and addressing security threats within the SDN. By utilising machine learning algorithms an anomaly based detection system was established to identify deviation in network behaviour. Five machine learning algorithms were employed to train the SDN-IDS, and ultimately, the most appropriate one was chosen. The SDN-IDS demonstrated an exceptional overall performance, particularly when using the XGBoost Classifier trained with a reduced feature train dataset, reaching 99.9\% accuracy as well as 99.9 F1-score. Furthermore, it exhibited near-perfect performance in identifying the most types of attacks within the traffic data.
 
 ####  Software Defined Network Intrusion Detection System (SDN-IDS) Architecture:
-
-#### Performance Evaluation metrics:
-![plot](https://github.com/sotirischatzimiltis/SDN_IDS/blob/main/Figures/performance_metrics.PNG)
 
 #### About Machine Learning Models Used:
 Three baseline models were chosen to be used among with the some more complex models. Decision Trees (DT), Random Forest (RF) and K-Nearest Neighbours (K-NN) were selected
